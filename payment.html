@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="//fdn.fontcdn.ir" />
+    <link rel="preconnect" href="//v1.fontapi.ir" />
+    <link href="https://v1.fontapi.ir/css/ShabnamFD" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weblink | Payment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Successful payment -->
+    <div
+      class="container mx-auto bg-gray-100 border border-grey-200 my-10 rounded-lg"
+    >
+      <div class="text-center">
+        <div class="flex justify-center mt-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40"
+            width="160px"
+            height="160px"
+          >
+            <path
+              fill="#bae0bd"
+              d="M20,38.5C9.8,38.5,1.5,30.2,1.5,20S9.8,1.5,20,1.5S38.5,9.8,38.5,20S30.2,38.5,20,38.5z"
+            />
+            <path
+              fill="#5e9c76"
+              d="M20,2c9.9,0,18,8.1,18,18s-8.1,18-18,18S2,29.9,2,20S10.1,2,20,2 M20,1C9.5,1,1,9.5,1,20s8.5,19,19,19	s19-8.5,19-19S30.5,1,20,1L20,1z"
+            />
+            <path
+              fill="none"
+              stroke="#fff"
+              stroke-miterlimit="10"
+              stroke-width="3"
+              d="M11.2,20.1l5.8,5.8l13.2-13.2"
+            />
+          </svg>
+        </div>
+        <h2 class="text-3xl pb-7">پرداخت موفق</h2>
+        <h4>
+          پرداخت شما با موفقیت انجام شد.
+          <br />
+          جزئیات پرداخت به شرح زیر می باشد:
+        </h4>
+      </div>
+      <div class="flex justify-center py-6">
+        <table class="border border-slate-400">
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              نام و نام خانوادگی
+            </th>
+            <td class="border-b border-slate-400 px-2 text-center">
+              امیر ادیب
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              ایمیل
+            </th>
+            <td class="border-b border-slate-400 px-6 text-center">
+              example@gmail.com
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              شناسه پرداخت
+            </th>
+            <td class="border-b border-slate-400 px-6 text-center">
+              ۴۵۸۰۳۹۴۸۵۰۳۹۵۴۳۰
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              موبایل
+            </th>
+            <td class="border-b border-slate-400 px-6 text-center">
+              ۰۹۳۴۵۵۳۳۶۶۹
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Unsuccessful payment -->
+    <div
+      class="container mx-auto bg-gray-100 border border-grey-200 my-10 rounded-lg"
+    >
+      <div class="text-center">
+        <div class="flex justify-center mt-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40"
+            width="160px"
+            height="160px"
+          >
+            <path
+              fill="#f78f8f"
+              d="M20,38.5C9.799,38.5,1.5,30.201,1.5,20S9.799,1.5,20,1.5S38.5,9.799,38.5,20S30.201,38.5,20,38.5z"
+            />
+            <path
+              fill="#c74343"
+              d="M20,2c9.925,0,18,8.075,18,18s-8.075,18-18,18S2,29.925,2,20S10.075,2,20,2 M20,1 C9.507,1,1,9.507,1,20s8.507,19,19,19s19-8.507,19-19S30.493,1,20,1L20,1z"
+            />
+            <path
+              fill="#fff"
+              d="M18.5 10H21.5V30H18.5z"
+              transform="rotate(-134.999 20 20)"
+            />
+            <path
+              fill="#fff"
+              d="M18.5 10H21.5V30H18.5z"
+              transform="rotate(-45.001 20 20)"
+            />
+          </svg>
+        </div>
+        <h2 class="text-3xl pb-7">پرداخت ناموفق</h2>
+        <h4>
+          پرداخت شما انجام نشد.
+          <br />
+          جزئیات به شرح زیر می باشد:
+        </h4>
+      </div>
+      <div class="flex justify-center py-6">
+        <table class="border border-slate-400">
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              نام و نام خانوادگی
+            </th>
+            <td class="border-b border-slate-400 px-2 text-center">
+              امیر ادیب
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              ایمیل
+            </th>
+            <td class="border-b border-slate-400 px-6 text-center">
+              example@gmail.com
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              شناسه پرداخت
+            </th>
+            <td class="border-b border-slate-400 px-6 text-center">
+              ۴۵۸۰۳۹۴۸۵۰۳۹۵۴۳۰
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="col"
+              class="text-sm text-slate-200 bg-slate-700 font-medium border border-slate-400 px-6 py-4 text-right"
+            >
+              موبایل
+            </th>
+            <td class="border-b border-slate-400 px-6 text-center">
+              ۰۹۳۴۵۵۳۳۶۶۹
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- successful payment -->
+    <!-- <div class="container mx-auto py-4">
+        <div class="bg-green-100 border border-green-500 rounded-sm	 text-green-700 px-4 py-3" role="alert">
+            <p class="font-bold pt-3 pb-1">پرداخت با موفقیت انجام شد</p>
+            <hr class="border-green-500 pb-6">
+            <p class="text-sm">با تشکر از پرداخت شما. پرداخت شما با موفقیت انجام شد.</p>
+            <p class="text-sm">جزئیات پرداخت شما به شرح زیر می باشد :</p>
+        </div>
+          <div class="my-4 flex justify-center">
+              <table class="border border-black">
+                  <tr>
+                    <th scope="col" class="text-sm bg-sky-400 font-medium border border-black px-6 py-4 text-right">
+                      نام و نام خانوادگی
+                    </th>
+                    <td class="border-b border-black px-2 text-center">امیر ادیب</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="text-sm bg-sky-400 font-medium border border-black px-6 py-4 text-right">
+                      ایمیل
+                    </th>
+                    <td class="border-b border-black px-6 text-center">amir.adiib90@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="text-sm bg-sky-400 font-medium border border-black px-6 py-4 text-right">
+                      شناسه پرداخت
+                    </th>
+                    <td class="border-b border-black px-6 text-center" >۴۵۸۰۳۹۴۸۵۰۳۹۵۴۳۰</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="text-sm bg-sky-400 font-medium border border-black px-6 py-4 text-right">
+                      موبایل
+                    </th>
+                    <td class="border-b border-black px-6 text-center">۰۹۳۹۵۰۸۰۳۳۴</td>
+                  </tr>
+                  
+              </table>
+          </div>
+
+        </div> -->
+
+    <!-- unsuccessful payment -->
+    <!-- <div class="container mx-auto py-4">
+            <div class="bg-red-300 border border-red-500 rounded-sm	 text-red-700 px-4 py-3" role="alert">
+                <p class="font-bold pt-3 pb-1">پرداخت ناموفق</p>
+                <hr class="border-black pb-6">
+                <p class="text-sm">با تشکر از پرداخت شما. پرداخت شما با موفقیت انجام شد.</p>
+                <p class="text-sm">جزئیات پرداخت شما به شرح زیر می باشد :</p>
+                <div class="flex flex-col mt-2">
+                    <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                      <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                        <div class="overflow-hidden">
+                          <table class="min-w-full border">
+                            <thead class="bg-white border-b">
+                              <tr class="bg-gray-300">
+                                <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-right">
+                                  ردیف
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-right">
+                                  اول
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-right">
+                                  دوم
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-right">
+                                  سوم
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                  تست اول
+                                </td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                  تست دوم
+                                </td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                  تست سوم
+                                </td>
+                              </tr>
+                              <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                    تست اول
+                                </td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                    تست دوم
+                                </td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                    تست سوم
+                                </td>
+                              </tr>
+                              <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3</td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                    تست اول
+                                </td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                    تست دوم
+                                </td>
+                                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                    تست سوم
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+            </div>
+            </div> -->
+  </body>
+</html>
